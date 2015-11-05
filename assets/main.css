@@ -3,3 +3,32 @@
   width: 200px;
   padding: 50px;
 }
+
+
+
+.share-created__confirmation {
+  display: none;
+  font-weight: bold;
+  float: right;
+  margin-top: -11px;
+}
+
+.share-created__confirmation-container {
+  background-color: white;
+}
+
+.share-created__confirmation-btn {
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 7px 16px;
+  margin-left: 25px;
+}
+
+.share-created__confirmation-btn-green {
+  background-color: #4DD664;
+}
+.share-created__confirmation-btn-red {
+  background-color: red;
+}
