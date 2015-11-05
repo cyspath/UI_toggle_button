@@ -1,0 +1,17 @@
+.toggle {
+  background-color: #4DD664;
+  height: 30px;
+  width: 50px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.toggle-circle {
+  position: absolute;
+  background-color: white;
+  height: 26px;
+  border-radius: 100%;
+  width: 26px;
+  top: 2px;
+  left: 2px;
+}
