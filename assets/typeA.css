@@ -1,9 +1,18 @@
 .toggle {
-  background-color: #4DD664;
   height: 30px;
+  background-color: #D8D9DB;
   width: 50px;
   border-radius: 15px;
   position: relative;
+}
+
+
+.on {
+  background-color: #4DD664;
+}
+
+.toggle:not(.on) .toggle-circle {
+  left: 22px;
 }
 
 .toggle-circle {

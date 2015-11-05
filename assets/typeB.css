@@ -1,0 +1,29 @@
+
+.toggle-switch {
+  background-color: #D8D9DB;
+  position: relative;
+  width: 39px;
+  height: 20px;
+  border: 2px solid #A7A8AA; /*$grey-2;*/
+  border-radius: 20px;
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.25);
+}
+
+.toggle-switch.on {
+  background-color: #3FC59D;
+}
+
+.toggle-switch:not(.on) .toggle-switch-circle {
+  left: 20px;
+}
+
+
+.toggle-switch-circle {
+  position: absolute;
+  background-color: #DDDEDF;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid #A7A8AA;
+  margin: -1px;
+}
